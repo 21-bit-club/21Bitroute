@@ -56,4 +56,4 @@ def traceroute():
 
 if __name__ == '__main__':
     print("Server running...")
-    app.run(host='0.0.0.0', port=6003)
+    app.run(host='::', port=6003)
